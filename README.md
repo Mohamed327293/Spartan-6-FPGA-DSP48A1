@@ -6,30 +6,6 @@ Submitted To: Eng. Kareem Waseem
 This project focuses on the implementation and verification of a digital design using the DSP48A1 block available on the Spartan-6 FPGA platform. The design includes RTL modeling, verification through testbenches, synthesis, implementation, and analysis using linting tools.
 
 📁 Project Structure
-│
-├── rtl/
-│ └── reg_Mux.v # Main RTL module for DSP logic
-│
-├── testbench/
-│ ├── tb_path1.v # Testbench for scenario 1
-│ ├── tb_path2.v # Testbench for scenario 2
-│ ├── tb_path3.v # Testbench for scenario 3
-│ └── tb_path4.v # Testbench for scenario 4
-│
-├── constraints/
-│ └── constraints.ucf # User constraints file for Spartan-6
-│
-├── scripts/
-│ └── run.do # Simulation Do file (ModelSim or equivalent)
-│
-├── report/
-│ ├── synthesis.rpt # Synthesis report (timing, area, etc.)
-│ ├── implementation.rpt # Place and route report
-│ └── lint_report.txt # Linting output and analysis
-│
-├── Mohamed_Mostafa_Project1.pdf # Final project documentation
-│
-└── README.md # Project description and instructions
 
 1. 🧠 RTL Code
 Developed Verilog modules to implement the core functionality.
